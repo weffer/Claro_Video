@@ -1,0 +1,1862 @@
+﻿#C:\oraclexe\app\oracle\product\12.1.0\product\12.1.0\client_1\Network\Admin
+
+#SYSADM/SYSADM
+
+BSCS_DESA9 =
+(DESCRIPTION =(ADDRESS_LIST =(ADDRESS = (PROTOCOL = TCP)(HOST = 10.96.143.66)(PORT = 1590)))(CONNECT_DATA =(SERVICE_NAME = BSCS1DB)))
+
+
+#migracion/Navidad1!
+
+PESGAPRD_1 =
+  (DESCRIPTION =
+    (ADDRESS = (PROTOCOL = TCP)(HOST = 172.17.39.116)(PORT = 1521))
+    (CONNECT_DATA =
+      (SERVER = DEDICATED)
+      (SERVICE_NAME = PESGAPRD)
+    )
+  )
+
+#USR_READER/usr_reader
+AUDITDEV =
+  (DESCRIPTION =
+    (ADDRESS = (PROTOCOL = TCP)(HOST = scandesa.claro.pe)(PORT = 1521))
+    (CONNECT_DATA =
+      (SERVER = DEDICATED)
+      (SERVICE_NAME = AUDITDEV)
+    )
+  )
+
+#dbaudit/dbaudit   
+DBAUDIT_DES.TIM.COM.PE=
+  (DESCRIPTION=
+    (ADDRESS=
+      (PROTOCOL=TCP)
+      (HOST=172.19.74.144)
+      (PORT=1521)
+    )
+    (CONNECT_DATA=
+      (SERVER=dedicated)
+      (SERVICE_NAME=DBAUDIT)
+    )
+  )
+  
+#dbaudit/dbaudit  
+DBAUDIT_NEW =
+(DESCRIPTION =
+	(ADDRESS_LIST =
+		(ADDRESS = (PROTOCOL = TCP)(HOST = 172.19.157.239)(PORT = 1521))
+	)
+	(CONNECT_DATA =
+		(SERVICE_NAME = DBAUDIT)
+		(SERVER = DEDICATED)
+	)
+)
+
+
+#DM/DM
+REPTDM_ONE = (DESCRIPTION =  (ADDRESS = (PROTOCOL = TCP)(HOST = 172.19.74.144)(PORT = 1521))  (CONNECT_DATA =  (SERVER = DEDICATED)  (SERVICE_NAME = DESAREPTDM)  )  )
+
+#USR_READER/usr_reader
+OACDEV.TIM.COM.PE  =
+  (DESCRIPTION =
+    (ADDRESS_LIST =
+      (ADDRESS = (PROTOCOL = TCP)(HOST = scandesa.claro.pe)(PORT = 1521))
+    )
+    (CONNECT_DATA =
+      (SERVICE_NAME = OACDEV)
+    )
+  )
+
+#SYSTEM/SYSTEM
+ODSDB_DES= 
+(DESCRIPTION= 
+  (ADDRESS= 
+    (PROTOCOL=TCP)(HOST=10.96.143.66)(PORT=1590) 
+  ) 
+  (CONNECT_DATA= 
+    (SERVER=DEDICATED)(SERVICE_NAME=BSCS1DB) 
+  ) 
+)
+  
+
+#usr_reader/usr_reader
+COBSDEV =
+ (DESCRIPTION =
+   (ADDRESS = (PROTOCOL = TCP)(HOST = scandesa.claro.pe)(PORT = 1521))
+   (CONNECT_DATA =
+     (SERVER = DEDICATED)
+     (SERVICE_NAME = COBSDEV)
+   )
+ )
+
+#SYSADM/SYSADM     BSCSIX //10.96.128.85:1521
+BSCS1DB_NEW =
+  (DESCRIPTION =
+    (ADDRESS = (PROTOCOL = TCP)(HOST = localhost)(PORT = 1521))
+    (CONNECT_DATA =
+      (SERVER = DEDICATED)
+      (SERVICE_NAME = BSCS1DB)
+    )
+	)
+ 
+#SYSADM/SYSADM
+BSCS_DB =
+  (DESCRIPTION =
+    (ADDRESS = (PROTOCOL = TCP)(HOST = 10.96.143.66)(PORT = 1521))
+    (CONNECT_DATA =
+      (SERVER = DEDICATED)
+      (SERVICE_NAME = BSCS1DB)
+    )
+  )
+ 
+#usr_reader/usr_reader
+TIMPROD_DEV =
+ (DESCRIPTION =
+   (ADDRESS = (PROTOCOL = TCP)(HOST = scandesa.claro.pe)(PORT = 1521))
+   (CONNECT_DATA =
+     (SERVER = DEDICATED)
+     (SERVICE_NAME = TIMDEV)
+   )
+ )
+
+#USR_READER/usr_reader 
+#intraway/Desarrollo20##
+SGADEV_SRV.TIM.COM.PE =
+ (DESCRIPTION =
+   (ADDRESS = (PROTOCOL = TCP)(HOST = 172.19.32.121)(PORT = 1521))
+   (CONNECT_DATA =
+     (SERVER = DEDICATED)
+     (SERVICE_NAME = SGADEV)
+   )
+ )
+  
+  
+#usrpvu/Desarrollo20##
+PVUDEV.TIM.COM.PE =
+ (DESCRIPTION =
+   (ADDRESS = (PROTOCOL = TCP)(HOST = 172.19.32.115)(PORT = 1521))
+   (CONNECT_DATA =
+     (SERVER = DEDICATED)
+     (SERVICE_NAME = PVUDES)
+   )
+ )
+  
+#dbaudit/oracle345
+OK_QATEST11G_new=
+ (DESCRIPTION =
+   (ADDRESS_LIST =
+     (ADDRESS = (PROTOCOL = TCP)(HOST = 172.19.74.245)(PORT = 1560))
+   )
+   (CONNECT_DATA =
+     (SERVICE_NAME = QTST)
+     (SERVER = DEDICATED)
+   )
+ )
+ 
+DBAUDIT_NEW =
+(DESCRIPTION =
+	(ADDRESS_LIST =
+		(ADDRESS = (PROTOCOL = TCP)(HOST = 172.19.157.239)(PORT = 1521))
+	)
+	(CONNECT_DATA =
+		(SERVICE_NAME = DBAUDIT)
+		(SERVER = DEDICATED)
+	)
+) 
+
+OK_QATEST11G_new.TIM.COM.PE=
+ (DESCRIPTION =
+   (ADDRESS_LIST =
+     (ADDRESS = (PROTOCOL = TCP)(HOST = 172.19.74.245)(PORT = 1560))
+   )
+   (CONNECT_DATA =
+     (SERVICE_NAME = QTST)
+     (SERVER = DEDICATED)
+   )
+ )
+ 
+#SICAP/SICAP
+SICAPDES =
+  (DESCRIPTION =
+    (ADDRESS = (PROTOCOL = TCP)(HOST = 172.19.157.239)(PORT = 1521))
+    (CONNECT_DATA = (SERVER = DEDICATED) (SERVICE_NAME = SICAPDES))
+  )
+  
+SIXDB =
+(DESCRIPTION =
+	(ADDRESS_LIST =
+		(ADDRESS = (PROTOCOL = TCP)(HOST = 172.19.157.79)(PORT = 1521))
+	)
+	(CONNECT_DATA =
+		(SERVICE_NAME = SIXDB)
+		(SERVER = DEDICATED)
+	)
+)
+
+TORA10G.TIM.COM.PE=
+  (DESCRIPTION=
+    (ADDRESS=
+      (PROTOCOL=TCP)
+      (HOST=172.19.34.21)
+      (PORT=1522)
+    )
+    (CONNECT_DATA=
+      (SERVER=dedicated)
+      (SERVICE_NAME=tora10g)
+    )
+  )
+  
+#USREAIDESA/USREAIDESA
+TIMDEV144.TIM.COM.PE =
+	(DESCRIPTION =
+		(ADDRESS_LIST = (ADDRESS = (PROTOCOL = TCP)(HOST = 172.19.74.144)(PORT = 1521)))
+		(CONNECT_DATA = (SERVICE_NAME = TIMDEV)))
+
+#motprom/motprom
+BSCS_DESA =
+  (DESCRIPTION =
+    (ADDRESS_LIST =
+      (ADDRESS = (PROTOCOL = TCP)(HOST = 172.19.32.101)(PORT = 1521))
+    )
+    (CONNECT_DATA =
+      (SERVICE_NAME = BSCSDES)
+    )
+  )		
+##################
+#BD:	TIMPROD
+#USER: 	sa 
+#Pass: 	pyclarify
+##################
+TIMPRB=
+  (DESCRIPTION=
+    (ADDRESS=
+      (PROTOCOL=TCP)
+      (HOST=172.19.74.113)
+      (PORT=1521)
+    )
+    (CONNECT_DATA=
+      (SERVICE_NAME=TIMPRB)
+    )
+  )
+TIMPRB.TIM.COM.PE=
+  (DESCRIPTION=
+    (ADDRESS=
+      (PROTOCOL=TCP)
+      (HOST=172.19.74.113)
+      (PORT=1521)
+    )
+    (CONNECT_DATA=
+      (SERVICE_NAME=TIMPRB)
+    )
+  )
+  
+ PVU_TEST=
+  (DESCRIPTION=
+    (ADDRESS=
+      (PROTOCOL=TCP)
+      (HOST=172.19.74.144)
+      (PORT=1521)
+    )
+    (CONNECT_DATA=
+      (SERVICE_NAME=TIMDEV)
+    )
+  )
+
+# USERONEMDC/USERMDCTOBE
+DES_IPC =
+  (DESCRIPTION =
+    (ADDRESS = (PROTOCOL = TCP)(HOST = 172.19.34.21)(PORT = 1522))
+    (CONNECT_DATA =
+      (SERVER = DEDICATED)
+      (SERVICE_NAME = tora10g)
+    )
+  )
+  
+##################
+#BD: 	BSCS_7
+#USER: 	tim
+#Pass: 	tim
+##################
+BSCS70_DESA_2 =
+  (DESCRIPTION =
+    (SDU=8192)
+    (ADDRESS_LIST =
+      (ADDRESS = (PROTOCOL = TCP)(HOST = 172.19.32.101)(PORT = 1521))
+    )
+    (CONNECT_DATA =
+      (SERVICE_NAME = BSCSDES)
+      (SERVER = DEDICATED)
+    )
+  )
+  
+TORA10G=
+  (DESCRIPTION=
+    (ADDRESS=
+      (PROTOCOL=TCP)
+      (HOST=172.19.34.21)
+      (PORT=1522)
+    )
+    (CONNECT_DATA=
+      (SERVER=dedicated)
+      (SERVICE_NAME=tora10g)
+    )
+  )
+DBAUDIT_DES.TIM.COM.PE=
+  (DESCRIPTION=
+    (ADDRESS=
+      (PROTOCOL=TCP)
+      (HOST=172.19.74.144)
+      (PORT=1521)
+    )
+    (CONNECT_DATA=
+      (SERVER=dedicated)
+      (SERVICE_NAME=DBAUDIT)
+    )
+  )
+TIMDEV.TIM.COM.PE =
+(DESCRIPTION =
+	(ADDRESS_LIST =
+		(ADDRESS = (PROTOCOL = TCP)(HOST = 172.19.74.144)(PORT = 1521))
+	)
+	(CONNECT_DATA =
+		(SERVICE_NAME = TIMDEV)
+		(SERVER = DEDICATED)
+	)
+)
+
+TIMDEV =
+(DESCRIPTION =
+	(ADDRESS_LIST =
+		(ADDRESS = (PROTOCOL = TCP)(HOST = 172.19.74.144)(PORT = 1521))
+	)
+	(CONNECT_DATA =
+		(SERVICE_NAME = TIMDEV)
+		(SERVER = DEDICATED)
+	)
+)
+  
+WEBUNI_NEW.TIM.COM.PE=
+WEBUNI_NEW.TIM.COM.PE=
+  (DESCRIPTION=
+    (ADDRESS=
+      (PROTOCOL=TCP)
+      (HOST=172.19.74.105)
+      (PORT=1521)
+    )
+    (CONNECT_DATA=
+      (SID=WEBUNI)
+    )
+  )
+
+
+PCLUBDES =
+  (DESCRIPTION =
+    (ADDRESS = (PROTOCOL = TCP)(HOST = 172.19.74.113)(PORT = 1521))
+    (CONNECT_DATA =
+      (SERVER = DEDICATED)
+      (SERVICE_NAME = PCLUBDB)
+    )
+  )
+
+##################
+#BD:	Claro_Club
+#USER: 	puntoscc 
+#Pass: 	puntoscc
+##################
+TORA10G_NEW=
+  (DESCRIPTION=
+    (ADDRESS=
+      (PROTOCOL=TCP)
+      (HOST=172.19.74.105)
+      (PORT=1521)
+    )
+    (CONNECT_DATA=
+      (SERVER=dedicated)
+      (SERVICE_NAME=tora10g)
+    )
+  )
+
+
+WEBUNI_NEW=
+  (DESCRIPTION=
+    (ADDRESS=
+      (PROTOCOL=TCP)
+      (HOST=172.19.74.105)
+      (PORT=1521)
+    )
+    (CONNECT_DATA=
+      (SID=WEBUNI)
+    )
+  )
+
+
+SGADES=
+  (DESCRIPTION =
+    (ADDRESS = (PROTOCOL = TCP)(HOST = 172.19.74.102)(PORT = 1521))
+    (CONNECT_DATA = (SID = SGADES))
+  )
+)
+SGADES.TIM.COM.PE=
+  (DESCRIPTION =
+    (ADDRESS = (PROTOCOL = TCP)(HOST = 172.19.74.102)(PORT = 1521))
+    (CONNECT_DATA = (SID = SGADES))
+  )
+)
+TIMPROD.TIM.COM.PE=
+  (DESCRIPTION=
+    (ADDRESS=
+      (PROTOCOL=TCP)
+      (HOST=172.19.53.29)
+      (PORT=1521)
+    )
+    (CONNECT_DATA=
+      (SERVICE_NAME=TIMPROD)
+    )
+  )
+ 
+
+WI65DB.TIM.COM.PE=
+  (DESCRIPTION=
+    (ADDRESS=
+      (PROTOCOL=TCP)
+      (HOST=172.19.44.35)
+      (PORT=1521)
+    )
+    (CONNECT_DATA=
+      (SERVER=dedicated)
+    )
+  )
+
+
+WEBIDB.TIM.COM.PE=
+  (DESCRIPTION=
+    (ADDRESS_LIST=
+      (LOAD_BALANCE=yes)
+      (ADDRESS=
+        (PROTOCOL=TCP)
+        (HOST=172.19.34.42)
+        (PORT=1521)
+      )
+      (ADDRESS=
+        (PROTOCOL=TCP)
+        (HOST=172.19.34.43)
+        (PORT=1521)
+      )
+    )
+    (CONNECT_DATA=
+      (FAILOVER_MODE=
+        (TYPE=select)
+        (METHOD=basic)
+        (RETRIES=20)
+        (DELAY=15)
+      )
+      (SERVER=dedicated)
+      (SERVICE_NAME=WEBIDB)
+    )
+  )
+
+
+SGADBQA.TIM.COM.PE=
+  (DESCRIPTION=
+    (ADDRESS=
+      (PROTOCOL=TCP)
+      (HOST=172.19.74.104)
+      (PORT=1521)
+    )
+    (CONNECT_DATA=
+      (SID=SGADBQA)
+    )
+  )
+
+
+SAPRMDB.TIM.COM.PE=
+  (DESCRIPTION=
+    (ADDRESS_LIST=
+      (LOAD_BALANCE=yes)
+      (ADDRESS=
+        (PROTOCOL=TCP)
+        (HOST=172.19.34.23)
+        (PORT=1521)
+      )
+      (ADDRESS=
+        (PROTOCOL=TCP)
+        (HOST=172.19.34.24)
+        (PORT=1521)
+      )
+    )
+    (CONNECT_DATA=
+      (FAILOVER_MODE=
+        (TYPE=select)
+        (METHOD=basic)
+        (RETRIES=60)
+        (DELAY=25)
+      )
+      (SERVER=dedicated)
+      (SERVICE_NAME=RMARTDB)
+    )
+  )
+
+
+PPSTAT.TIM.COM.PE=
+  (DESCRIPTION=
+    (ADDRESS=
+      (PROTOCOL=TCP)
+      (HOST=172.19.30.87)
+      (PORT=1521)
+    )
+    (CONNECT_DATA=
+      (SERVICE_NAME=PPSTAT)
+    )
+  )
+
+
+TIMSBCDB.TIM.COM.PE=
+  (DESCRIPTION=
+    (ADDRESS_LIST=
+      (LOAD_BALANCE=yes)
+      (ADDRESS=
+        (PROTOCOL=TCP)
+        (HOST=172.19.34.42)
+        (PORT=1526)
+      )
+      (ADDRESS=
+        (PROTOCOL=TCP)
+        (HOST=172.19.34.43)
+        (PORT=1526)
+      )
+    )
+    (CONNECT_DATA=
+      (FAILOVER_MODE=
+        (TYPE=select)
+        (METHOD=basic)
+        (RETRIES=20)
+        (DELAY=15)
+      )
+      (SERVER=dedicated)
+      (SERVICE_NAME=TIMSBCDB)
+    )
+  )
+
+
+T-DW.TIM.COM.PE=
+  (DESCRIPTION=
+    (ADDRESS=
+      (PROTOCOL=TCP)
+      (HOST=172.19.30.87)
+      (PORT=1521)
+    )
+    (CONNECT_DATA=
+      (SERVICE_NAME=REPTDM)
+    )
+  )
+
+
+IVRDB.TIM.COM.PE=
+  (DESCRIPTION=
+    (ADDRESS_LIST=
+      (LOAD_BALANCE=yes)
+      (ADDRESS=
+        (PROTOCOL=TCP)
+        (HOST=172.19.34.42)
+        (PORT=1521)
+      )
+      (ADDRESS=
+        (PROTOCOL=TCP)
+        (HOST=172.19.34.43)
+        (PORT=1521)
+      )
+    )
+    (CONNECT_DATA=
+      (FAILOVER_MODE=
+        (TYPE=select)
+        (METHOD=basic)
+        (RETRIES=20)
+        (DELAY=15)
+      )
+      (SERVER=dedicated)
+      (SERVICE_NAME=IVRDB)
+    )
+  )
+
+
+ASTDB.TIM.COM.PE=
+  (DESCRIPTION=
+    (ADDRESS_LIST=
+      (LOAD_BALANCE=yes)
+      (ADDRESS=
+        (PROTOCOL=TCP)
+        (HOST=172.19.34.42)
+        (PORT=1526)
+      )
+      (ADDRESS=
+        (PROTOCOL=TCP)
+        (HOST=172.19.34.43)
+        (PORT=1526)
+      )
+    )
+    (CONNECT_DATA=
+      (FAILOVER_MODE=
+        (TYPE=select)
+        (METHOD=basic)
+        (RETRIES=20)
+        (DELAY=15)
+      )
+      (SERVER=dedicated)
+      (SERVICE_NAME=ASTDB)
+    )
+  )
+
+
+REPORT.TIM.COM.PE=
+  (DESCRIPTION=
+    (ADDRESS=
+      (PROTOCOL=TCP)
+      (HOST=172.19.30.87)
+      (PORT=1521)
+    )
+    (CONNECT_DATA=
+      (SERVICE_NAME=REPORT)
+    )
+  )
+
+
+SGRF.TIM.COM.PE=
+  (DESCRIPTION=
+    (ADDRESS=
+      (PROTOCOL=TCP)
+      (HOST=172.19.33.26)
+      (PORT=1521)
+    )
+    (CONNECT_DATA=
+      (SERVER=dedicated)
+      (SID=SGRF)
+    )
+  )
+
+
+SGRF2.TIM.COM.PE=
+  (DESCRIPTION=
+    (ADDRESS=
+      (PROTOCOL=TCP)
+      (HOST=172.19.33.26)
+      (PORT=1521)
+    )
+    (CONNECT_DATA=
+      (SERVER=dedicated)
+      (SERVICE_NAME=SGRF)
+      (SID=SGRF)
+    )
+  )
+
+
+DBTO.TIM.COM.PE=
+  (DESCRIPTION=
+    (ADDRESS=
+      (PROTOCOL=TCP)
+      (HOST=172.19.74.144)
+      (PORT=1521)
+    )
+    (CONNECT_DATA=
+      (SERVICE_NAME=DBTO)
+    )
+  )
+
+
+MDSOLD.TIM.COM.PE=
+  (DESCRIPTION=
+    (ADDRESS=
+      (PROTOCOL=TCP)
+      (HOST=172.19.44.33)
+      (PORT=1521)
+    )
+    (CONNECT_DATA=
+      (SERVICE_NAME=MDSOLD)
+    )
+  )
+
+
+REPTDMS.TIM.COM.PE=
+  (DESCRIPTION=
+    (ADDRESS=
+      (PROTOCOL=TCP)
+      (HOST=172.19.30.87)
+      (PORT=1521)
+    )
+    (CONNECT_DATA=
+      (SERVICE_NAME=REPTDMS)
+    )
+  )
+
+
+BMTEST.TIM.COM.PE=
+  (DESCRIPTION=
+    (ADDRESS=
+      (PROTOCOL=TCP)
+      (HOST=172.19.44.33)
+      (PORT=1521)
+    )
+    (CONNECT_DATA=
+      (SERVICE_NAME=BM)
+    )
+  )
+
+
+TODEL1.TIM.COM.PE=
+  (DESCRIPTION=
+    (ADDRESS=
+      (PROTOCOL=TCP)
+      (HOST=172.19.34.23)
+      (PORT=1526)
+    )
+    (CONNECT_DATA=
+      (SERVER=dedicated)
+      (SID=TODEL1)
+    )
+  )
+
+
+PVU_TEST=
+  (DESCRIPTION=
+    (ADDRESS=
+      (PROTOCOL=TCP)
+      (HOST=172.19.74.144)
+      (PORT=1521)
+    )
+    (CONNECT_DATA=
+      (SERVICE_NAME=TIMDEV)
+    )
+  )
+  
+
+PVU_TEST.TIM.COM.PE=
+  (DESCRIPTION=
+    (ADDRESS=
+      (PROTOCOL=TCP)
+      (HOST=172.19.74.144)
+      (PORT=1521)
+    )
+    (CONNECT_DATA=
+      (SERVICE_NAME=TIMDEV)
+    )
+  )
+
+
+TIMONLINE.TIM.COM.PE=
+  (DESCRIPTION=
+    (ADDRESS_LIST=
+      (LOAD_BALANCE=yes)
+      (ADDRESS=
+        (PROTOCOL=TCP)
+        (HOST=172.19.34.23)
+        (PORT=1526)
+      )
+      (ADDRESS=
+        (PROTOCOL=TCP)
+        (HOST=172.19.34.24)
+        (PORT=1526)
+      )
+    )
+    (CONNECT_DATA=
+      (SERVER=dedicated)
+      (SERVICE_NAME=DBTODB)
+    )
+  )
+
+
+TVIRDISP_TEST.TIM.COM.PE=
+  (DESCRIPTION=
+    (ADDRESS=
+      (PROTOCOL=TCP)
+      (HOST=172.19.33.26)
+      (PORT=1521)
+    )
+    (CONNECT_DATA=
+      (SID=TVIRDISP)
+    )
+  )
+
+
+MDSTEST.TIM.COM.PE=
+  (DESCRIPTION=
+    (ADDRESS=
+      (PROTOCOL=TCP)
+      (HOST=172.19.44.33)
+      (PORT=1521)
+    )
+    (CONNECT_DATA=
+      (SERVICE_NAME=MDSOLD)
+    )
+  )
+
+
+TIMONLINE_RAC2.TIM.COM.PE=
+  (DESCRIPTION=
+    (ADDRESS_LIST=
+      (LOAD_BALANCE=yes)
+      (ADDRESS=
+        (PROTOCOL=TCP)
+        (HOST=172.19.34.42)
+        (PORT=1526)
+      )
+      (ADDRESS=
+        (PROTOCOL=TCP)
+        (HOST=172.19.34.43)
+        (PORT=1526)
+      )
+    )
+    (CONNECT_DATA=
+      (SERVER=dedicated)
+      (SERVICE_NAME=DBTODB)
+    )
+  )
+
+DBTO_TEST=
+  (DESCRIPTION=
+    (ADDRESS=
+      (PROTOCOL=TCP)
+      (HOST=172.19.74.144)
+      (PORT=1521)
+    )
+    (CONNECT_DATA=
+      (SERVICE_NAME=DBTO)
+    )
+  )
+
+
+DBTO_TEST.TIM.COM.PE=
+  (DESCRIPTION=
+    (ADDRESS=
+      (PROTOCOL=TCP)
+      (HOST=172.19.74.144)
+      (PORT=1521)
+    )
+    (CONNECT_DATA=
+      (SERVICE_NAME=DBTO)
+    )
+  )
+
+
+TIMDEV.TIM.COM.PE=
+  (DESCRIPTION=
+    (ADDRESS=
+      (PROTOCOL=TCP)
+      (HOST=172.19.74.144)
+      (PORT=1521)
+    )
+    (CONNECT_DATA=
+      (SERVICE_NAME=TIMDEV)
+    )
+  )
+
+##################
+#BD:	PVUDB
+#USER: 	pvu 
+#Pass: 	pvu
+##################
+TIMDEV=
+  (DESCRIPTION=
+    (ADDRESS=
+      (PROTOCOL=TCP)
+      (HOST=172.19.74.144)
+      (PORT=1521)
+    )
+    (CONNECT_DATA=
+      (SERVICE_NAME=TIMDEV)
+    )
+  )
+
+
+COBIL.TIM.COM.PE=
+  (DESCRIPTION=
+    (ADDRESS=
+      (PROTOCOL=TCP)
+      (HOST=172.19.30.106)
+      (PORT=1521)
+    )
+    (CONNECT_DATA=
+      (SERVER=dedicated)
+      (SERVICE_NAME=COBIL)
+    )
+  )
+
+
+COBIL=
+  (DESCRIPTION=
+    (ADDRESS=
+      (PROTOCOL=TCP)
+      (HOST=172.19.30.106)
+      (PORT=1521)
+    )
+    (CONNECT_DATA=
+      (SERVER=dedicated)
+      (SERVICE_NAME=COBIL)
+    )
+  )
+
+
+QATEST.TIM.COM.PE=
+  (DESCRIPTION=
+    (ADDRESS=
+      (PROTOCOL=TCP)
+      (HOST=172.19.33.26)
+      (PORT=1521)
+    )
+    (CONNECT_DATA=
+      (SERVER=dedicated)
+      (SERVICE_NAME=QATEST)
+      (SID=QATEST)
+    )
+  )
+
+
+TIMPROD_Q.TIM.COM.PE=
+  (DESCRIPTION=
+    (ADDRESS=
+      (PROTOCOL=TCP)
+      (HOST=172.19.32.73)
+      (PORT=1521)
+    )
+    (CONNECT_DATA=
+      (SERVICE_NAME=TIMPROD)
+    )
+  )
+
+
+TIMPROD_Q=
+  (DESCRIPTION=
+    (ADDRESS=
+      (PROTOCOL=TCP)
+      (HOST=172.19.32.73)
+      (PORT=1521)
+    )
+    (CONNECT_DATA=
+      (SERVICE_NAME=TIMPROD)
+    )
+  )
+
+
+CAE.TIM.COM.PE=
+  (DESCRIPTION=
+    (ADDRESS=
+      (PROTOCOL=TCP)
+      (HOST=172.19.74.144)
+      (PORT=1521)
+    )
+    (CONNECT_DATA=
+      (SERVICE_NAME=CAE)
+    )
+  )
+
+
+CAE=
+  (DESCRIPTION=
+    (ADDRESS=
+      (PROTOCOL=TCP)
+      (HOST=172.19.74.144)
+      (PORT=1521)
+    )
+    (CONNECT_DATA=
+      (SERVICE_NAME=CAE)
+    )
+  )
+
+
+SGADBUAT.TIM.COM.PE=
+  (DESCRIPTION=
+    (ADDRESS=
+      (PROTOCOL=TCP)
+      (HOST=172.19.74.104)
+      (PORT=1521)
+    )
+    (CONNECT_DATA=
+      (SID=SGADBUAT)
+    )
+  )
+
+##################
+#BD:	SGA
+#USER: 	it_consulta 
+#Pass: 	it_consulta2011
+##################
+SGADBUAT=
+  (DESCRIPTION=
+    (ADDRESS=
+      (PROTOCOL=TCP)
+      (HOST=172.19.74.104)
+      (PORT=1521)
+    )
+    (CONNECT_DATA=
+      (SID=SGADBUAT)
+    )
+  )
+
+
+SGADBUAT.WORLD.TIM.COM.PE=
+  (DESCRIPTION=
+    (ADDRESS=
+      (PROTOCOL=TCP)
+      (HOST=172.19.74.104)
+      (PORT=1521)
+    )
+    (CONNECT_DATA=
+      (SID=SGADBUAT)
+    )
+  )
+
+
+SGADBUAT.WORLD=
+  (DESCRIPTION=
+    (ADDRESS=
+      (PROTOCOL=TCP)
+      (HOST=172.19.74.104)
+      (PORT=1521)
+    )
+    (CONNECT_DATA=
+      (SID=SGADBUAT)
+    )
+  )
+
+
+REPTDM_D.TIM.COM.PE=
+  (DESCRIPTION=
+    (ADDRESS=
+      (PROTOCOL=TCP)
+      (HOST=172.19.30.120)
+      (PORT=1521)
+    )
+    (CONNECT_DATA=
+      (SERVICE_NAME=reptdm)
+    )
+  )
+
+
+REPTDM_D=
+  (DESCRIPTION=
+    (ADDRESS=
+      (PROTOCOL=TCP)
+      (HOST=172.19.30.120)
+      (PORT=1521)
+    )
+    (CONNECT_DATA=
+      (SERVICE_NAME=reptdm)
+    )
+  )
+
+
+AMPH.TIM.COM.PE=
+  (DESCRIPTION=
+    (ADDRESS=
+      (PROTOCOL=TCP)
+      (HOST=10.97.99.4)
+      (PORT=1521)
+    )
+    (CONNECT_DATA=
+      (SERVER=dedicated)
+      (SERVICE_NAME=homo)
+    )
+  )
+
+
+AMPH=
+  (DESCRIPTION=
+    (ADDRESS=
+      (PROTOCOL=TCP)
+      (HOST=10.97.99.4)
+      (PORT=1521)
+    )
+    (CONNECT_DATA=
+      (SERVER=dedicated)
+      (SERVICE_NAME=homo)
+    )
+  )
+
+GVNQA.TIM.COM.PE=
+  (DESCRIPTION=
+    (ADDRESS=
+      (PROTOCOL=TCP)
+      (HOST=172.19.74.113)
+      (PORT=1521)
+    )
+    (CONNECT_DATA=
+      (SERVICE_NAME=GVNQA)
+    )
+  )
+
+
+GVNQA=
+  (DESCRIPTION=
+    (ADDRESS=
+      (PROTOCOL=TCP)
+      (HOST=172.19.74.113)
+      (PORT=1521)
+    )
+    (CONNECT_DATA=
+      (SERVICE_NAME=GVNQA)
+    )
+  )
+
+
+TIMPRBQA.TIM.COM.PE=
+  (DESCRIPTION=
+    (ADDRESS=
+      (PROTOCOL=TCP)
+      (HOST=172.19.33.26)
+      (PORT=1521)
+    )
+    (CONNECT_DATA=
+      (SERVICE_NAME=TIMPRB)
+    )
+  )
+
+
+TIMPRBQA=
+  (DESCRIPTION=
+    (ADDRESS=
+      (PROTOCOL=TCP)
+      (HOST=172.19.33.26)
+      (PORT=1521)
+    )
+    (CONNECT_DATA=
+      (SERVICE_NAME=TIMPRB)
+    )
+  )
+
+
+TIMDEV_TEST.TIM.COM.PE=
+  (DESCRIPTION=
+    (ADDRESS=
+      (PROTOCOL=TCP)
+      (HOST=172.19.74.144)
+      (PORT=1521)
+    )
+    (CONNECT_DATA=
+      (SID=TIMDEV)
+    )
+  )
+
+
+TIMDEV_TEST=
+  (DESCRIPTION=
+    (ADDRESS=
+      (PROTOCOL=TCP)
+      (HOST=172.19.74.144)
+      (PORT=1521)
+    )
+    (CONNECT_DATA=
+      (SID=TIMDEV)
+    )
+  )
+
+
+TIMTVIR_TEST.TIM.COM.PE=
+  (DESCRIPTION=
+    (ADDRESS=
+      (PROTOCOL=TCP)
+      (HOST=172.19.74.144)
+      (PORT=1521)
+    )
+    (CONNECT_DATA=
+      (SID=timtvir)
+    )
+  )
+
+
+TIMTVIR_TEST=
+  (DESCRIPTION=
+    (ADDRESS=
+      (PROTOCOL=TCP)
+      (HOST=172.19.74.144)
+      (PORT=1521)
+    )
+    (CONNECT_DATA=
+      (SID=timtvir)
+    )
+  )
+
+
+DBAUDIT_TEST.TIM.COM.PE=
+  (DESCRIPTION=
+    (ADDRESS=
+      (PROTOCOL=TCP)
+      (HOST=172.19.74.144)
+      (PORT=1521)
+    )
+    (CONNECT_DATA=
+      (SERVER=dedicated)
+      (SID=DBAUDIT)
+    )
+  )
+
+
+DBAUDIT_TEST=
+  (DESCRIPTION=
+    (ADDRESS=
+      (PROTOCOL=TCP)
+      (HOST=172.19.74.144)
+      (PORT=1521)
+    )
+    (CONNECT_DATA=
+      (SERVER=dedicated)
+      (SID=DBAUDIT)
+    )
+  )
+
+
+DBTO_TEST.TIM.COM.PE=
+  (DESCRIPTION=
+    (ADDRESS=
+      (PROTOCOL=TCP)
+      (HOST=172.19.74.144)
+      (PORT=1521)
+    )
+    (CONNECT_DATA=
+      (SERVER=dedicated)
+      (SID=DBTO)
+    )
+  )
+
+
+CAE_TEST.TIM.COM.PE=
+  (DESCRIPTION=
+    (ADDRESS=
+      (PROTOCOL=TCP)
+      (HOST=172.19.74.144)
+      (PORT=1521)
+    )
+    (CONNECT_DATA=
+      (SID=CAE)
+    )
+  )
+
+
+CAE_TEST=
+  (DESCRIPTION=
+    (ADDRESS=
+      (PROTOCOL=TCP)
+      (HOST=172.19.74.144)
+      (PORT=1521)
+    )
+    (CONNECT_DATA=
+      (SID=CAE)
+    )
+  )
+
+
+# (ADDRESS = (PROTOCOL = TCP)(HOST = 172.19.74.144)(PORT = 1521))
+
+
+TIMDEV_DESA=
+  (DESCRIPTION=
+    (ADDRESS=
+      (PROTOCOL=TCP)
+      (HOST=172.19.74.113)
+      (PORT=1521)
+    )
+    (CONNECT_DATA=
+      (SERVER=dedicated)
+      (SERVICE_NAME=TIMDEV)
+    )
+  )
+
+
+# (ADDRESS = (PROTOCOL = TCP)(HOST = 172.19.74.144)(PORT = 1521))
+
+
+TIMDEV_DESA.TIM.COM.PE=
+  (DESCRIPTION=
+    (ADDRESS=
+      (PROTOCOL=TCP)
+      (HOST=172.19.74.113)
+      (PORT=1521)
+    )
+    (CONNECT_DATA=
+      (SERVER=dedicated)
+      (SERVICE_NAME=TIMDEV)
+    )
+  )
+
+
+TIMPRO11G.TIM.COM.PE=
+  (DESCRIPTION=
+    (ADDRESS=
+      (PROTOCOL=TCP)
+      (HOST=172.19.30.110)
+      (PORT=1521)
+    )
+    (CONNECT_DATA=
+      (SERVER=dedicated)
+      (SERVICE_NAME=TIMQA)
+    )
+  )
+
+
+TIMPRO11G=
+  (DESCRIPTION=
+    (ADDRESS=
+      (PROTOCOL=TCP)
+      (HOST=172.19.30.110)
+      (PORT=1521)
+    )
+    (CONNECT_DATA=
+      (SERVER=dedicated)
+      (SERVICE_NAME=TIMQA)
+    )
+  )
+
+
+XE=
+  (DESCRIPTION=
+    (ADDRESS=
+      (PROTOCOL=TCP)
+      (HOST=User-PC)
+      (PORT=1521)
+    )
+    (CONNECT_DATA=
+      (SERVER=dedicated)
+      (SERVICE_NAME=XE)
+    )
+  )
+
+
+EXTPROC_CONNECTION_DATA=
+  (DESCRIPTION=
+    (ADDRESS=
+      (PROTOCOL=IPC)
+      (KEY=EXTPROC1)
+    )
+    (CONNECT_DATA=
+      (PRESENTATION=RO)
+      (SID=PLSExtProc)
+    )
+  )
+
+
+ORACLR_CONNECTION_DATA=
+  (DESCRIPTION=
+    (ADDRESS=
+      (PROTOCOL=IPC)
+      (KEY=EXTPROC1)
+    )
+    (CONNECT_DATA=
+      (PRESENTATION=RO)
+      (SID=CLRExtProc)
+    )
+  )
+
+
+DATADEV=
+  (DESCRIPTION=
+    (ADDRESS=
+      (PROTOCOL=TCP)
+      (HOST=90.0.0.96)
+      (PORT=1521)
+    )
+    (CONNECT_DATA=
+      (SERVER=dedicated)
+      (SERVICE_NAME=XE)
+    )
+  )
+
+
+##########################
+#          OAC           #
+##########################
+
+
+DESA.TIM.COM.PE=
+  (DESCRIPTION=
+    (ADDRESS=
+      (PROTOCOL=TCP)
+      (HOST=172.19.74.181)
+      (PORT=1530)
+    )
+    (CONNECT_DATA=
+      (SID=DESA)
+    )
+  )
+
+
+DESA=
+  (DESCRIPTION=
+    (ADDRESS=
+      (PROTOCOL=TCP)
+      (HOST=172.19.74.181)
+      (PORT=1530)
+    )
+    (CONNECT_DATA=
+      (SID=DESA)
+    )
+  )
+
+
+TESTOAC.TIM.COM.PE=
+  (DESCRIPTION=
+    (ADDRESS=
+      (PROTOCOL=TCP)
+      (HOST=172.19.74.211)
+      (PORT=1530)
+    )
+    (CONNECT_DATA=
+      (SID=TEST)
+    )
+  )
+
+
+OAC_TEST.TIM.COM.PE=
+  (DESCRIPTION=
+    (ADDRESS=
+      (PROTOCOL=TCP)
+      (HOST=172.19.74.211)
+      (PORT=1530)
+    )
+    (CONNECT_DATA=
+      (SID=TEST)
+    )
+  )
+
+
+ODSPRE_D=
+  (DESCRIPTION=
+    (ADDRESS=
+      (PROTOCOL=TCP)
+      (HOST=172.19.30.120)
+      (PORT=1521)
+    )
+    (CONNECT_DATA=
+      (SERVICE_NAME=odspre)
+    )
+  )
+
+
+TIMPROD_TEST=
+  (DESCRIPTION=
+    (ADDRESS=
+      (PROTOCOL=TCP)
+      (HOST=172.19.32.73)
+      (PORT=1521)
+    )
+    (CONNECT_DATA=
+      (SERVICE_NAME=TIMPRD11)
+    )
+  )
+
+
+SGADBUAT.WORLD=
+  (DESCRIPTION=
+    (ADDRESS=
+      (PROTOCOL=TCP)
+      (HOST=172.19.74.104)
+      (PORT=1521)
+    )
+    (CONNECT_DATA=
+      (SID=SGADBUAT)
+    )
+  )
+
+
+MSSAPDB=
+  (DESCRIPTION=
+    (ADDRESS=
+      (PROTOCOL=TCP)
+      (HOST=172.19.74.144)
+      (PORT=1521)
+    )
+    (CONNECT_DATA=
+      (SERVER=dedicated)
+      (SERVICE_NAME=MSSAPDB)
+    )
+  )
+
+
+SGADBQA=
+  (DESCRIPTION=
+    (ADDRESS=
+      (PROTOCOL=TCP)
+      (HOST=172.19.74.104)
+      (PORT=1521)
+    )
+    (CONNECT_DATA=
+      (SID=SGADBQA)
+    )
+  )
+
+
+QATEST11G_NEW.TIM.COM.PE=
+  (DESCRIPTION=
+    (ADDRESS=
+      (PROTOCOL=TCP)
+      (HOST=172.19.74.245)
+      (PORT=1521)
+    )
+    (CONNECT_DATA=
+      (SERVER=dedicated)
+      (SERVICE_NAME=QATEST11G)
+    )
+  )
+
+
+MSINCDB=
+  (DESCRIPTION=
+    (ADDRESS=
+      (PROTOCOL=TCP)
+      (HOST=172.19.74.244)
+      (PORT=1521)
+    )
+    (CONNECT_DATA=
+      (SID=MSINC)
+    )
+  )
+
+
+DWO_DES=
+  (DESCRIPTION=
+    (ADDRESS=
+      (PROTOCOL=TCP)
+      (HOST=172.19.32.98)
+      (PORT=1521)
+    )
+    (CONNECT_DATA=
+      (SERVER=dedicated)
+      (SERVICE_NAME=DWO)
+    )
+  )
+  
+DWO_DES.TIM.COM.PE=
+  (DESCRIPTION=
+    (ADDRESS=
+      (PROTOCOL=TCP)
+      (HOST=172.19.32.98)
+      (PORT=1521)
+    )
+    (CONNECT_DATA=
+      (SERVER=DEDICATED)
+      (SERVICE_NAME=DWO)
+    )
+  )
+  
+#cumdl/Cl$$2023
+DWODES_NEW.TIM.COM.PE =
+  (DESCRIPTION =
+    (ADDRESS_LIST =
+      (ADDRESS = (PROTOCOL = TCP)(HOST = 172.19.74.147)(PORT = 1521))
+    )
+    (CONNECT_DATA =
+      (SERVICE_NAME = DWODES)
+    )  )
+
+
+ALTADES.TIM.COM.PE=
+  (DESCRIPTION=
+    (ADDRESS=
+      (PROTOCOL=TCP)
+      (HOST=172.19.74.199)
+      (PORT=1522)
+    )
+    (CONNECT_DATA=
+      (SERVER=dedicated)
+      (SERVICE_NAME=ALTA)
+    )
+  )
+
+
+REPTDM=
+  (DESCRIPTION=
+    (ADDRESS=
+      (PROTOCOL=TCP)
+      (HOST=172.19.74.144)
+      (PORT=1521)
+    )
+    (CONNECT_DATA=
+      (SERVICE_NAME=DESAREPTDM)
+    )
+  )
+
+
+TORA10G_NEW.TIM.COM.PE=
+  (DESCRIPTION=
+    (ADDRESS=
+      (PROTOCOL=TCP)
+      (HOST=172.19.74.105)
+      (PORT=1521)
+    )
+    (CONNECT_DATA=
+      (SERVER=dedicated)
+      (SERVICE_NAME=tora10g)
+    )
+  )
+
+  
+PDR=
+  (DESCRIPTION =
+    (ADDRESS = (PROTOCOL = TCP)(HOST = 172.19.30.180)(PORT = 1521))
+    (CONNECT_DATA = (SID = PEMEDPRD))
+  )
+
+#PESGAPRD_1 =
+#  (DESCRIPTION =
+#    (ADDRESS = (PROTOCOL = TCP)(HOST = 172.19.30.160)(PORT = 1521))
+#    (CONNECT_DATA =
+#      (SERVER = DEDICATED)
+#      (SERVICE_NAME = PESGAPRD)
+#    )
+#  )
+
+PESGAPRD_1 =
+  (DESCRIPTION =
+    (ADDRESS = (PROTOCOL = TCP)(HOST = 172.17.39.111)(PORT = 1521))
+    (CONNECT_DATA =
+      (SERVER = DEDICATED)
+      (SERVICE_NAME = PESGAPRD)
+    )
+)
+
+TEST_OAC.TIM.COM.PE=
+  (DESCRIPTION=
+    (ADDRESS=
+      (PROTOCOL=TCP)
+      (HOST=172.19.74.211)
+      (PORT=1530)
+    )
+    (CONNECT_DATA=
+      (SID=TEST)
+    )
+  )
+  
+BSCS70_DESA=
+(DESCRIPTION=
+  (SDU=8192)
+  (ADDRESS=
+    (PROTOCOL=TCP)
+    (HOST=172.19.32.101)
+    (PORT=1521)
+  )
+  (CONNECT_DATA=
+    (SERVER=dedicated)
+    (SERVICE_NAME=BSCSDES)
+  )
+)
+
+SGADBQA =
+  (DESCRIPTION =
+    (ADDRESS = (PROTOCOL = TCP)(HOST = 172.19.74.104)(PORT = 1521))
+    (CONNECT_DATA = (SID = SGADBQA))
+  )
+
+SGADBQA.WORLD =
+  (DESCRIPTION =
+    (ADDRESS = (PROTOCOL = TCP)(HOST = 172.19.74.104)(PORT = 1521))
+    (CONNECT_DATA = (SID = SGADBQA))
+  )
+####################
+#PDR
+PEMEDPRD =
+  (DESCRIPTION =
+    (ADDRESS = (PROTOCOL = TCP)(HOST = 172.19.30.180)(PORT = 1521))
+    (CONNECT_DATA = (SID = PEMEDPRD))
+  )
+##################
+
+BSCS70_DESA2=
+(DESCRIPTION=
+  (SDU=8192)
+  (ADDRESS=
+    (PROTOCOL=TCP)
+    (HOST=172.19.32.101)
+    (PORT=1521)
+  )
+  (CONNECT_DATA=
+    (SERVER=dedicated)
+    (SERVICE_NAME=BSCS70)
+  )
+)
+
+BSCSDES=
+
+  (DESCRIPTION=
+
+    (ADDRESS=
+
+      (PROTOCOL=TCP)
+
+      (HOST=172.19.32.101)
+
+      (PORT=1521)
+
+    )
+
+    (CONNECT_DATA=
+
+      (SERVICE_NAME=BSCSDES)
+
+    )
+
+  )
+
+##################
+#BD: 	BSCS_7
+#USER: 	tim
+#Pass: 	tim
+##################
+BSCS70_DESA_2 =
+  (DESCRIPTION =
+    (SDU=8192)
+    (ADDRESS_LIST =
+      (ADDRESS = (PROTOCOL = TCP)(HOST = 172.19.32.101)(PORT = 1521))
+    )
+    (CONNECT_DATA =
+      (SERVICE_NAME = BSCSDES)
+      (SERVER = DEDICATED)
+    )
+  )
+  
+  
+  
+  
+####################
+#PDR
+PEMEDPRD =
+  (DESCRIPTION =
+    (ADDRESS = (PROTOCOL = TCP)(HOST = 172.19.30.180)(PORT = 1521))
+    (CONNECT_DATA = (SID = PEMEDPRD))
+  )
+  
+##################
+#BD: 	SIOP
+#USER: 	USRSIOP
+#Pass: 	usr2adm
+##################
+TORA10G_NEW.TIM.COM.PE = 
+  (DESCRIPTION = 
+    (ADDRESS_LIST = 
+      (ADDRESS = 
+        (PROTOCOL = TCP)
+        (HOST = 172.19.74.105)
+        (PORT = 1521)
+      )
+    )
+    (CONNECT_DATA = 
+      (SERVER = DEDICATED)
+      (SERVICE_NAME = tora10g)
+    )
+  )
+
+##################
+#BD:	OAC
+#USER: 	apps 
+#Pass: 	apps
+##################
+TEST_OAC.TIM.COM.PE =
+     (DESCRIPTION =
+                (ADDRESS_LIST =
+                               (ADDRESS = (PROTOCOL = TCP)(HOST = 172.19.74.211)(PORT = 1530))
+                               )
+                (CONNECT_DATA =
+                (SID = TEST))
+)
+
+#SYSADM/SYSADM
+BSCS9.TIM.COM.PE = 
+(DESCRIPTION = 
+		(ADDRESS_LIST = 
+			(ADDRESS = (PROTOCOL = TCP)(HOST = 10.96.143.66)(PORT = 1590))
+			)
+			(CONNECT_DATA = 
+			(SERVICE_NAME = BSCS1DB)))
+			
+			
+#usr_reader / usr_reader	
+#USRSIOP / usr2adm    ---> desarrollo
+		
+SIOPDES =
+(DESCRIPTION =
+      (ADDRESS = (PROTOCOL = TCP)(HOST = 172.19.32.114)(PORT = 1521))
+      (ADDRESS = (PROTOCOL = TCP)(HOST = 172.19.32.115)(PORT = 1521))
+      (LOAD_BALANCE = YES)
+      (CONNECT_DATA =
+         (SERVER = DEDICATED)
+         (SERVICE_NAME = SIOPDES)
+         (FAILOVER_MODE = (TYPE = SELECT)(METHOD = BASIC))
+      )
+   )
+#(DESCRIPTION =
+#    (ADDRESS = (PROTOCOL = TCP)(HOST = 172.19.74.105)(PORT = 1521))
+#    (CONNECT_DATA =
+#      (SERVER = DEDICATED)
+#      (SID = TORA10G)
+#      (SERVICE_NAME = tora10g)
+#    )
+#  )  
+   
+
+SIOPDES_DESA =
+(DESCRIPTION =
+    (ADDRESS = (PROTOCOL = TCP)(HOST = 172.19.74.105)(PORT = 1521))
+    (CONNECT_DATA =
+      (SERVER = DEDICATED)
+      (SID = TORA10G)
+      (SERVICE_NAME = tora10g)
+    )
+  ) 
+
+   
+   
+
+
+
+#usr_reader/usrreader
+BSCSDEV =
+  (DESCRIPTION =
+    (ADDRESS_LIST =
+      (ADDRESS = (PROTOCOL = TCP)(HOST = 172.19.32.105)(PORT = 1521))
+    )
+    (CONNECT_DATA =
+      (SERVICE_NAME = BSCSDEV)
+    )
+  )
+  
+USRGEXP =
+  (DESCRIPTION =
+    (ADDRESS_LIST =
+      (ADDRESS = (PROTOCOL = TCP)(HOST = 172.19.74.103)(PORT = 1521))
+    )
+    (CONNECT_DATA =
+      (SERVICE_NAME = COMTST)
+    )
+  )
+
+TIMEDEV_PIVOT =
+ (DESCRIPTION =
+   (ADDRESS = (PROTOCOL = TCP)(HOST = scandesa.claro.pe)(PORT = 1521))
+   (CONNECT_DATA =
+     (SERVER = DEDICATED)
+     (SERVICE_NAME = TIMEDEV)
+   )
+ )
+
+#usr_reader / usr_reader
+CTLDES =
+  (DESCRIPTION =
+    (ADDRESS = (PROTOCOL = TCP)(HOST = 172.19.32.105)(PORT = 1521))
+    (CONNECT_DATA =
+      (SERVER = DEDICATED)
+      (SERVICE_NAME = ctl)
+    )
+  )
+
+#USRPPVADMBO/G7M$4dPa
+SXDB_DEV =
+  (DESCRIPTION=(ADDRESS=(PROTOCOL=TCP)(HOST=172.19.157.79)(PORT=1530))(CONNECT_DATA=(SERVER=DEDICATED)(SERVICE_NAME=SXDBDES)))
+
+
+##### SICAP DB REP
+#user_reader/user#re4der
+SICAPDB2 =
+
+  (DESCRIPTION =
+    (ADDRESS = (PROTOCOL = TCP)(HOST = 172.19.32.115)(PORT = 1521))
+    (CONNECT_DATA =
+      (SERVER = DEDICATED)
+      (SERVICE_NAME = SICAPDB)
+    )
+  )
