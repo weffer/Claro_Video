@@ -1,3 +1,8 @@
+## Ruta para mapear en clarovideo
+/Transactions/ClaroVideo/SuscripcionClaroVideo
+/area/controlador/accion
+
+
 # Claro_Video
 
 TNSNAMES ---> DEBE ESTAR EN LA RUTA : C:\app\Administrador\product\11.2.0\client_1\network\admin
