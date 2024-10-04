@@ -1,6 +1,6 @@
 ## Ruta para mapear en clarovideo
 /Transactions/ClaroVideo/SuscripcionClaroVideo
-/area/controlador/accion
+
 
 
 # Claro_Video
